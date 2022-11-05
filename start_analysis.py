@@ -1,0 +1,14 @@
+from reddit_depression_classifier.likelihood_ratio import generate_llr_list
+from reddit_depression_classifier.ml_training import ml_training_and_prediction
+from reddit_depression_classifier.page_rank import generate_page_rank_list
+from reddit_depression_classifier.spearman_correlation import get_spearman_correlation
+from reddit_depression_classifier.training_data import process_and_obtain_training_data
+
+generate_llr_list()
+generate_page_rank_list()
+get_spearman_correlation()
+process_and_obtain_training_data()
+ml_training_and_prediction()
+
+
+
